@@ -23,7 +23,7 @@ jobs:
 
       - name: Setup PNPM and Install Deps
         id: setup-pnpm
-        uses: pnpm/setup@v2.0.2
+        uses: pnpm/setup@v2.1.0
         with:
           cache: true
           version: 11
@@ -52,7 +52,7 @@ jobs:
 
       - name: Setup PNPM and Install Deps
         id: setup-pnpm
-        uses: pnpm/setup@v2.0.2
+        uses: pnpm/setup@v2.1.0
         with:
           cache: true
           version: 11
