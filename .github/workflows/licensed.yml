@@ -39,7 +39,7 @@ jobs:
 
       - name: Setup Ruby
         id: setup-ruby
-        uses: ruby/setup-ruby@v1.323.0
+        uses: ruby/setup-ruby@v1.325.0
         with:
           ruby-version: '4.0.6'
 
