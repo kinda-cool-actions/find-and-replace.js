@@ -31,7 +31,7 @@ jobs:
 
       - name: Setup PNPM and Install Deps
         id: setup-pnpm
-        uses: pnpm/setup@v3.1.1
+        uses: pnpm/setup@v3.1.2
         with:
           cache: true
           version: 11
@@ -39,7 +39,7 @@ jobs:
 
       - name: Setup Ruby
         id: setup-ruby
-        uses: ruby/setup-ruby@v1.331.0
+        uses: ruby/setup-ruby@v1.335.0
         with:
           ruby-version: '4.0.6'
 
